@@ -1,0 +1,30 @@
+{
+  "name": "project-participants",
+  "version": "1.0.0",
+  "description": "project participants ",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 tests/**/*.test.js",
+    "start": "nodemon src/app.js",
+    "start-server": "node src/app.js"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Ian Madara",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-xlsx": "^0.23.0",
+    "nodemon": "^3.0.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
