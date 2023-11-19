@@ -26,7 +26,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/express-api-project.git
+   git clone https://github.com/ianmadara/project-participants.git
 
 2. Navigate to Project folder:
 
